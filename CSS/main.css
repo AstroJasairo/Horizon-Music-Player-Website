@@ -1,0 +1,42 @@
+.topmenu ul{
+    list-style: none;
+}
+.topmenu li {
+    background-color: gray;
+    display: inline-table;
+    line-height: 50px;
+    width: 15%;
+    text-align: center;
+    color: white;
+    width: 19%;
+}
+.topmenu li:hover {
+    background-color: royalblue;
+    color: white;
+}
+@media (max-width: 800px) {
+    .topmenu li {
+        display: block;
+        width: 100%;
+    }
+}
+
+.footer {
+    height: 150px;
+    position: relative;
+    background-color: black;
+    clear: both;
+}
+.footer div {
+    color: white;
+    background-color: black;
+    display: inline;
+}
+.footer li {
+    list-style-type: none;
+    padding: 1px;
+}
+.footer a {
+    text-decoration: none;
+    color: lightgrey;
+}
